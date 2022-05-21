@@ -1,0 +1,13 @@
+[package]
+name = "pele"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+hap = "0.1.0-pre.14"
+bluer = "0.13"
+bytes = "1.1"
+env_logger = "0.9"
